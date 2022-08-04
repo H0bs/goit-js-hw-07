@@ -43,8 +43,8 @@ function onCloseModalWithEsc() {
     window.removeEventListener('keydown', onEscPress);
 }
 
-function onEscPress(event) {
-    if (event.code === 'Escape') {
+function onEscPress(e) {
+    if (e.code === 'Escape') {
     onCloseModalWithEsc();
     const modal = document.querySelector('.basicLightbox');
     modal.remove('basicLightbox');
