@@ -41,6 +41,7 @@ function onImageClick(evt) {
 
 function onCloseModalWithEsc() {
     window.removeEventListener('keydown', onEscPress);
+
 }
 
 function onEscPress(e) {
